@@ -1,0 +1,173 @@
+[    
+    {
+        "endpoint_name": "RESULTS",
+        "url": "https://api-football-v1.p.rapidapi.com/v3/fixtures",
+        "params": {
+          "league": "39",
+          "season": "2021",
+          "status": "FT"
+        },
+        "schema": [
+    
+            {
+            "column_name": "fixture_id",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "fixture_referee",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "fixture_timezone",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "fixture_date",
+            "data_type": "DATETIME"
+            },
+            {
+            "column_name": "fixture_timestamp",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "fixture_periods_first",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "fixture_periods_second",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "fixture_venue_id",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "fixture_venue_name",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "fixture_venue_city",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "fixture_status_long",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "fixture_status_short",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "fixture_status_elapsed",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "league_id",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "league_name",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "league_country",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "league_logo",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "league_flag",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "league_season",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "league_round",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "teams_home_id",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "teams_home_name",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "teams_home_logo",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "teams_home_winner",
+            "data_type": "BOOLEAN"
+            },
+            {
+            "column_name": "teams_away_id",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "teams_away_name",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "teams_away_logo",
+            "data_type": "STRING"
+            },
+            {
+            "column_name": "teams_away_winner",
+            "data_type": "BOOLEAN"
+            },
+            {
+            "column_name": "goals_home",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "goals_away",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "score_halftime_home",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "score_halftime_away",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "score_fulltime_home",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "score_fulltime_away",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "score_extratime_home",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "score_extratime_away",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "score_penalty_home",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "score_penalty_away",
+            "data_type": "INTEGER"
+            },
+            {
+            "column_name": "updated_at",
+            "data_type": "DATETIME"
+            }
+    
+        ],
+        "table_id": "premier-league-data-337116.pl_prod.src_fixtures",
+        "write_disposition": "WRITE_APPEND"
+      }
+]
